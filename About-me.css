@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.margin-left {
+    width: 90%;
+    margin-left: 5%;
+}
+.display-flex {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/* Fondo de pagina seccion sobre mi */
+.bg-page {
+    background-color: rgb(36, 34, 34);
+    height: 100%;
+    width: 100%;
+    position: static;
+}
+/* Menu de pagina seccion sobre mi  */
+.main-menu {
+    justify-content: space-between;
+    height: 100px;
+}
+.logo {
+    background-image: url("https://desygner.com/editor/file?url=https%3A%2F%2Fs3.amazonaws.com%2Fvirginia.webrand.com%2Fvirginia%2Fdownloads%2F2399732129576519358%2FJCM0tE3ni3d%2Funtitleddesign_1_original.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/* Texto de pagina seccion sobre mi */
+.text-center {
+    height: 50vh;
+    flex-direction: column;
+}
+.text-white {
+    color: white;
+}
+.text-teal {
+    color: teal;
+}
+.text-silver {
+    color: silver;
+}
+.font-size-2rem {
+    font-size: 2rem;
+}
+.font-size-mrem {
+    font-size: 1.5rem;
+}
+.font-size-3rem {
+    font-size: 3rem;
+}
+/* My photo and info */
+.photo {
+    height:300px;
+    width: 300px;
+    margin: 30px 0;
+    background-image: url("https://scontent.fbog10-1.fna.fbcdn.net/v/t1.0-9/115803130_2704934143111682_3935823401742699692_n.jpg?_nc_cat=100&_nc_sid=85a577&_nc_eui2=AeFDnZy7vZg1CnRSsVcpJk4-yvhxrqM7Z3vK-HGuoztne1ZX-ky-J53ny0nYcRotvJUYkHzRBTTDgy-d3EYQ92v0&_nc_ohc=errGh4MO-6sAX8Oi07V&_nc_ht=scontent.fbog10-1.fna&oh=24c56c3e6baf8d89ab8eae405c14d481&oe=5F768195&dl=1");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+/* texto de quien soy */
+.text-me {
+    padding: 10px;
+}
+.text-me p {
+    padding: 15px 10px;
+}
+.text-me h2 {
+    padding: 15px 10px;
+}
+.text-me h3 {
+    padding: 15px 10px;
+}
+.text-my-services {
+    padding: 20px 0px;
+}
+.text-my-services p {
+    padding: 10px 0px;
+}
+.text-my-services h2 {
+    padding: 5px 0px;
+}
+/* datos mios */
+.dates, .dates-me {
+    padding: 10px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+}
+.date-me div{
+    display: flex;
+    padding: 10px 0px;
+}
+.dates {
+    flex-wrap: wrap;
+}
+.dates span {
+    color:silver;
+    padding: 0 10px;
+}
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+/*  Mis Servicios */
+.icon {
+    width: 100%;
+    color: teal;
+    font-size: 50px;
+}
+.bg-services div {
+    padding: 15px 20px;
+}
+.service-1 div {
+    padding: 10px 10px;
+    width: 100%;
+}
+.services div {
+    padding: 20px;
+    background: rgba(12, 12, 12, 0.295);
+    border-left: 2px solid teal;
+}
+.icon {
+    display: inline-block
+}

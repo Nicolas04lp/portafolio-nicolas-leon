@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.margin-left {
+    width: 90%;
+    margin-left: 5%;
+}
+.display-flex {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Fondo de pagina seccion mis estudios */
+.bg-page {
+    background-color: rgb(36, 34, 34);
+    height: 100%;
+    width: 100%;
+    position: static;
+}
+/* Menu de pagina seccion Mis estudios */
+.main-menu {
+    justify-content: space-between;
+    height: 120px;
+}
+.logo {
+    background-image: url("https://desygner.com/editor/file?url=https%3A%2F%2Fs3.amazonaws.com%2Fvirginia.webrand.com%2Fvirginia%2Fdownloads%2F2399732129576519358%2FkEBhHlXRa18%2Funtitleddesign_1_original.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/* Texto de pagina seccion Mis estudios */
+.text-center {
+    height: 100%;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+/* Texto de pagina seccion estudios */
+.text-white {
+    color: white;   
+}
+.text-white p {
+    padding: 10px;
+}
+.text-teal {
+    color: teal;
+}
+.text-silver {
+    color: silver;
+}
+.font-size-2rem {
+    font-size: 2rem;
+}
+.font-size-mrem {
+    font-size: 1.5rem;
+}
+.font-size-3rem {
+    font-size: 3rem;
+}
+.padding {
+    padding: 30px;
+}
+.bg-text {
+    background: rgba(129, 128, 128, 0.1);
+    border-left: 2px solid teal;
+}
