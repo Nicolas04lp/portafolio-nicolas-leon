@@ -105,6 +105,7 @@
 .date-me div{
     display: flex;
     padding: 10px 0px;
+    margin-right: 100px;
 }
 .dates {
     flex-wrap: wrap;
